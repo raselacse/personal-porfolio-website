@@ -4,13 +4,55 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* header-section */
+
+header{
+    background-image: url("https://images.pexels.com/photos/159844/cellular-education-classroom-159844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    background: rgba(0, 0, 0, .3);
+    padding: 1% 10%;
+}
+nav .logo{
+    display: inline;
+}
+nav span{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+}
+nav .menu{
+    display: inline;
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+header h1{
+    font-size: 3.5rem;
+    font-family: 'Handlee', cursive;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 190px;
+}
+
 /* topper-section */
 
 .topper{
     margin: 5% 8%;
 }
 .topper .content{
-    width: 30%;
+    width: 32%;
     float: left;
     line-height: 1.2;
 }
@@ -73,7 +115,7 @@ i.fa.fa-download{
 /* project-section */
 
 .project-section{
-    height: 800px;
+    height: 750px;
     width: 100%;
     margin: 50px 0;
     display: inline-block;
@@ -109,7 +151,7 @@ h3{
 /* buttom-section */
 
 .buttom-section {
-    margin: 80px 0;
+    margin-bottom: 80px;
     text-align: center;
     padding-right: 85px;
 }
@@ -135,18 +177,39 @@ h3{
 /* footer */
 
 footer{
-    text-align: center;
-    padding: 50px 0;       
+    background-color: #212121;      
+}
+footer .content{
+    height: 400px;
+    margin-left: 250px;
+}
+footer .content p{
+    border-bottom: 1px solid #282628;
+    font-size: 13px;
+}
+footer .text-content{
+    float: left;
+    width: 25%;
+    padding: 50px 20px;
 }
 footer img{
-    width: 2%;
+    width: 8%;
     padding: 10px 5px;
 }
 footer h4{
-    color: dimgray;
+    color: white;
     margin: 0;
 }
-footer h2{
-    color: #363958;
+footer h5{
+    color: white;
     margin: 0;
+}
+footer .buttom-text{
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+footer span{
+    color: #878786;
 }
