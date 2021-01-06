@@ -6,13 +6,12 @@ body{
 
 /* topper-section */
 
-main{
-    margin: 0 5%;
+.topper{
+    margin: 5% 8%;
 }
 .topper .content{
     width: 30%;
     float: left;
-    margin-top: 10%;
     line-height: 1.2;
 }
 .topper .img-content{
@@ -47,21 +46,24 @@ a{
     border-radius: 5px;
 }
 .img-content img{
-    width: 100%;
+    width: 80%;
 }
 
 /* about-section */
 
+.about-section{
+    margin: 0 8%;
+}
 .about-section .content{
     width: 30%;
     float: right;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .about-section .img-content{
     width: 40%;
     float: left;
-    margin-top: 17%;
+    margin-top: 10%;
 }
 i.fa.fa-download{
     padding-right: 15px;
@@ -73,6 +75,7 @@ i.fa.fa-download{
 .project-section{
     height: 800px;
     width: 100%;
+    margin: 50px 0;
     display: inline-block;
     background-color: rgb(247, 247, 247);
 }
@@ -108,6 +111,7 @@ h3{
 .buttom-section {
     margin: 80px 0;
     text-align: center;
+    padding-right: 85px;
 }
 .buttom-section img{
     width: 50%;
@@ -115,7 +119,7 @@ h3{
 .buttom-section h2{
     position: relative;
     float: left;
-    left: 450px;
+    left: 400px;
     top: 35px;
     color: white;
     font-size: 30px;
@@ -123,7 +127,7 @@ h3{
 .buttom-section a{
     position: relative;
     float: right;
-    right: 350px;
+    right: 315px;
     top: 50px;
 }
 
@@ -131,7 +135,8 @@ h3{
 /* footer */
 
 footer{
-    text-align: center;    
+    text-align: center;
+    padding: 50px 0;       
 }
 footer img{
     width: 2%;
