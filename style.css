@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* topper-section */
+
+main{
+    margin: 0 5%;
+}
+.topper .content{
+    width: 30%;
+    float: left;
+    margin-top: 10%;
+    line-height: 1.2;
+}
+.topper .img-content{
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+.brand-title{
+    color: #363958;
+}
+.brand-name{
+    color: #FF8367;
+}
+p{
+    color: dimgray;
+}
+a{
+    margin: 10px 0px;
+    display: inline-block;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    background-image: linear-gradient(360deg,#FF8367, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.img-content img{
+    width: 100%;
+}
+
+/* about-section */
+
+.about-section .content{
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.about-section .img-content{
+    width: 40%;
+    float: left;
+    margin-top: 17%;
+}
+i.fa.fa-download{
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+/* project-section */
+
+.project-section{
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(247, 247, 247);
+}
+.project-section .content{
+    width: 29%;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(221, 221, 221);
+}
+.project-section div{
+    margin: 100px 5% 0 5%;
+}
+.project-section h2{
+    text-align: center;
+    color: #363958;
+    margin: 50px 0;
+    font-size: 30px;
+}
+.project-section h2 span{
+    color: #F46060;
+}
+h3{
+    color: #363958;
+}
+.project-section .content img{
+    width: 100%;
+}
+
+/* buttom-section */
+
+.buttom-section {
+    margin: 80px 0;
+    text-align: center;
+}
+.buttom-section img{
+    width: 50%;
+}
+.buttom-section h2{
+    position: relative;
+    float: left;
+    left: 450px;
+    top: 35px;
+    color: white;
+    font-size: 30px;
+}
+.buttom-section a{
+    position: relative;
+    float: right;
+    right: 350px;
+    top: 50px;
+}
+
+
+/* footer */
+
+footer{
+    text-align: center;    
+}
+footer img{
+    width: 2%;
+    padding: 10px 5px;
+}
+footer h4{
+    color: dimgray;
+    margin: 0;
+}
+footer h2{
+    color: #363958;
+    margin: 0;
+}
